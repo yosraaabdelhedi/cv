@@ -1,0 +1,270 @@
+:root {
+  --couleur-p: #e71d36;
+  --couleur-s: #ffffff;
+  font-size: 16px;
+}
+* {
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.red-line {
+  height: 3px;
+  width: 50px;
+  background: var(--couleur-p);
+}
+.black-line
+{
+  height: 1px;
+  width: 20px;
+  background: var(--couleur-p);
+}
+h1 {
+  font-weight: 400 !important;
+}
+h2 {
+  font-weight: 500;
+  font-size: 3rem;
+}
+.nav-lang{
+  position: relative;
+  top: 0;
+  
+}
+.nav-lang ul{
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+}
+.nav-lang ul li{
+margin-left: 10px;
+line-height: 30px;
+padding: 20px 0px;
+}
+.nav-lang ul li a{
+  text-decoration: none;
+  background: #e71d36;
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: 900;
+}
+.nav-lang ul li a:hover{
+  text-decoration: none;
+  color: #e71d36;
+  background: #ffffff;
+
+}
+.scroll-up{
+  background: var(--couleur-p);
+  display: inline;
+  position: fixed;
+  bottom: 10px;
+  right:-40px;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: ease-in 1s;
+  cursor: pointer;
+}
+.scroll-up-show{
+  right: 10px;
+}
+.intro {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-bottom: 140px;
+  /*background: url(../img/yosra.png), rgba(111, 108, 105, 0.042); */
+  background: url(../img/yosra1.png);
+  background-size: 50%;
+ background-position-y: top;
+  background-position-x: right;
+  background-repeat: no-repeat;
+ 
+
+  
+  
+}
+.intro-first{
+  
+  height: 100vh;
+  display: grid;
+  justify-content: stretch;
+  align-items: center;
+  align-content: center;
+  
+}
+.my-intro {
+  max-width: 600px;
+  height: auto;
+}
+/* section {
+  height: 100vh;
+} */
+
+section{
+  margin: 50px 0;
+}
+section:nth-child(2){
+  margin: auto auto;
+  
+}
+.assesement , .differences{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  align-content: center;
+  
+}
+.assesement{
+/*  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%); */
+}
+.differences{
+/*clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);*/
+}
+.Teachingphilosophy img
+{
+  
+    width: 80%;
+    border-radius: 30px;
+    box-shadow: 0px 0px 70px 1px #545454;
+    height: 300px;
+}
+
+.teaching-section p{
+  text-align: justify;
+}
+
+.circle {
+  background: var(--couleur-p);
+
+  padding: 0px 8px;
+  border-radius: 25%;
+  line-height: 30px;
+}
+.education {
+  padding: 20px 0px;
+  margin: 10px;
+}
+.education::-webkit-scrollbar {
+  width: 2px;
+}
+.education::-webkit-scrollbar-thumb {
+  background: red;
+  border-radius: 10px;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background: #d3d3d3cf url(../img/contact.jpg);
+ 
+  background-blend-mode: screen;
+  height: 495px;
+  background-size: cover;
+  border: 1px solid rgba(0, 0, 0, 0.09);
+}
+input:focus,
+textarea:focus {
+  box-shadow: 0px 0px 10px 1px var(--couleur-p) !important;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--couleur-p);
+}
+.test-line {
+  line-height: 35px;
+}
+li{
+  text-align: justify;
+  
+}
+.Teachingphilosophy li{
+  margin-bottom: 10px;
+}
+.portfolio-nav ul li:hover {
+  background: var(--couleur-p);
+  color: white;
+  padding: 0px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.portfolio-img {
+  height: 300px;
+  overflow: scroll;
+}
+.portfolio-img img {
+  width: 100%;
+}
+
+/* .Portfolio {
+  height: 200vh;
+} */
+.contact-info{
+  background: #0e0909bf;
+ 
+}
+.card-portfolio:hover {
+    /* background: black; */
+    padding: 18px;
+    background-blend-mode: hard-light;
+    /* color: white; */
+    transition: ease 0.5s;
+    border: 1px solid red;
+}
+
+@media screen and (max-width: 991px) {
+
+section {
+  height: 100%;
+  
+}
+.Portfolio{
+  height: 100%;
+}
+section:nth-child(2){
+  padding: 0px;
+  
+}
+section:last-child{
+  margin: auto auto;
+  padding: 0px;
+  
+}
+section{
+  padding: 20px 0px;
+}
+.education {
+  height: 100%;
+  
+}
+.intro {
+  display: grid;
+
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 10px;
+ 
+ background-size: cover;
+background-position-x: center;
+background-repeat: no-repeat;
+
+}
+.my-intro{
+  margin-top: 400px;
+  
+  /* padding: 20px; */
+  border: 1px solid black;
+ 
+  background:rgba(255, 255, 255, 0.438);
+
+}
+}

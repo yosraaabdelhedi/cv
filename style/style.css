@@ -217,7 +217,7 @@ li{
 }
 
 @media screen and (max-width: 991px) {
-
+ 
 section {
   height: 100%;
   
@@ -242,22 +242,31 @@ section{
   
 }
 .intro {
-  display: grid;
+  display: flex;
 
   justify-content: center;
-  align-items: flex-end;
-  padding-bottom: 10px;
+  align-items: center;
+  padding-bottom: 5px;
  
- background-size: cover;
-background-position-x: center;
+ background-size: 90%;
+
 background-repeat: no-repeat;
 
 }
+.intro h1{
+  font-size: 48px;
+}
+.intro h2{
+  font-size: 32px;
+}
+.second-p{
+  display: none;
+}
 .my-intro{
-  margin-top: 400px;
+  margin-top: 300px;
   
   /* padding: 20px; */
-  border: 1px solid black;
+  border: 1px solid rgba(0, 0, 0, 0.3);
  
   background: rgb(255 255 255 / 83%);
 

@@ -89,7 +89,7 @@ padding: 20px 0px;
 }
 .intro-first{
   
-  height: 100vh;
+  
   display: grid;
   justify-content: stretch;
   align-items: center;
@@ -119,18 +119,13 @@ section:nth-child(2){
   align-content: center;
   
 }
-.assesement{
-/*  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%); */
-}
-.differences{
-/*clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);*/
-}
+
 .Teachingphilosophy img
 {
   
     width: 80%;
     border-radius: 30px;
-    box-shadow: 0px 0px 70px 1px #545454;
+    box-shadow: 0px 0px 15px 1px #5454544a;
     height: 300px;
 }
 
@@ -264,7 +259,11 @@ background-repeat: no-repeat;
   /* padding: 20px; */
   border: 1px solid black;
  
-  background:rgba(255, 255, 255, 0.438);
+  background: rgb(255 255 255 / 83%);
 
 }
+.teaching-right{
+  display: flex;
+  flex-direction: column-reverse;
+  }
 }

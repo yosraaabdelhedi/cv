@@ -75,7 +75,7 @@ padding: 20px 0px;
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
-  padding-bottom: 140px;
+  padding-bottom: 10px;
   /*background: url(../img/yosra.png), rgba(111, 108, 105, 0.042); */
   background: url(../img/yosra1.png);
   background-size: 50%;
@@ -216,7 +216,10 @@ li{
     transition: ease 0.5s;
     border: 1px solid red;
 }
-
+.card img{
+  width: 100%;
+  height: 180px;
+}
 @media screen and (max-width: 991px) {
  
 section {
@@ -260,10 +263,9 @@ background-repeat: no-repeat;
 .intro h2{
   font-size: 32px;
 }
-.second-p{
- /* display: none; */
-}
+
 .my-intro{
+
   position: relative;
   height: 100%;
  margin: 0  !important;
